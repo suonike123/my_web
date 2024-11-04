@@ -1,0 +1,59 @@
+.travels_container{
+  .content{
+    .title{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .item_wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .item{
+        width: 440px;
+        height: 460px;
+        border: 1px solid #eee;
+        border-radius: 16px;
+        transition: all ease-in-out 0.3s;
+        &:hover{
+          scale: 1.05;
+          transition: all ease-in-out 0.3s;
+        }
+        .top{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          height: 260px;
+          border-radius: 16px 16px 0 0;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 16px 16px 0 0;
+          }
+        }
+        .img_desc{
+          .date{
+            padding: 0 5px;
+            box-sizing: border-box;
+            margin: 20px 0 40px;
+            font-weight: 500;
+          }
+          .address{
+            padding: 0 20px;
+            box-sizing: border-box;
+            font-size: 18px;
+            font-weight:bold;
+            margin-bottom: 30px;
+          }
+          .text{
+            padding: 0 20px;
+            box-sizing: border-box;
+            font-size: 16px;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+    }
+  }
+}
